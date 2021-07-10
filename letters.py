@@ -7,8 +7,8 @@ def letters():
 
 def main():
     answer = ""
-    print("-------------------------\nEnter any letter to quit\n-------------------------\n")
-    while answer == "":
+    print("-------------------------\nEnter 'q' to quit\n-------------------------\n")
+    while answer != "q":
         letters()
         answer = input()
 
